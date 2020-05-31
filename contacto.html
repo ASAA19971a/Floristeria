@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/LOGO.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>FLORISTERIA ASAA</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/LOGO.png" alt="">
+                <h1>ASAA</h1>
+            </a>
+        </div>
+        <nav class="menu">
+            <a href="#" class="boton" onclick="accion()"><i class="fa fa-bars"></i></a>
+
+            <ul>
+                <li><a class="nav-enlace desaparece" href="index.html">Inicio</a></li>
+                <li><a class="nav-enlace desaparece" href="nosotros.html">Nosotros</a></li>
+                <li><a class="nav-enlace desaparece" href="productos.html">Productos</a></li>
+                <li><a class="nav-enlace desaparece" href="contacto.html">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="titulo">
+        <h1>Formulario de contacto</h1>
+
+    </div>
+
+
+    <section class="contenedor ">
+
+
+        <form action="">
+
+            <fieldset>
+                <legend>Informacion Personal</legend>
+                <label for="nombre">Nombre: <span>*</span></label>
+                <input type="text" id="nombre" placeholder="Su nombre" required>
+
+                <label for="Email">Correo: <span>*</span></label>
+                <input type="email" id="Email" placeholder="correo@gmail.com" required>
+
+                <label for="Telefono">Telefono: <span>*</span></label>
+                <input type="tel" id="Telefono" required>
+
+                <label for="Opciones">Motivo: <span>*</span></label>
+
+                <select id="Opciones" required>
+                    <option value="" disabled selected>--Seleccione--</option>
+                    <option value="Vende">Comprar</option>
+                    <option value="Compra">Consulta</option>
+                    <option value="Queja">Queja</option>
+                </select>
+
+                <label for="Mensaje">Mensaje: <span>*</span></label>
+                <textarea id="Mensaje" required></textarea>
+            </fieldset>
+
+            <input type="submit" value="Enviar" class="boton b-f">
+        </form>
+    </section>
+
+
+    <footer>
+        <div class="info-copy">
+            <p>Creado por Abel Acosta</p>
+            <p>copyright ASSA &copy;</p>
+        </div>
+        <div class="redes-sociales">
+            <a target="_blank" href="https://www.facebook.com" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a target="_blank" href="https://www.twitter.com" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a target="_blank" href="https:/www.instagram.com" class="instagram"><i class="fa fa-instagram"></i></a>
+            <a target="_blank" href="https://web.whatsapp.com" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
+
+        </div>
+    </footer>
+
+    <!-- /* barra lateral fija */ -->
+    <div class="barra-lateral">
+        <a target="_blank" href="https://www.facebook.com" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a target="_blank" href="https://www.twitter.com" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a target="_blank" href="https:/www.instagram.com" class="instagram"><i class="fa fa-instagram"></i></a>
+        <a target="_blank" href="https://web.whatsapp.com" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
+
+    </div>
+</body>
+
+</html>
